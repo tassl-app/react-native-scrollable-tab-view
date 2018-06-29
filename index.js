@@ -1,9 +1,8 @@
 const React = require('react');
 const { Component } = React;
-const { ViewPropTypes } = ReactNative = require('react-native');
 const createReactClass = require('create-react-class');
 const PropTypes = require('prop-types');
-const {
+import {
   Dimensions,
   View,
   Animated,
@@ -12,7 +11,8 @@ const {
   StyleSheet,
   ViewPagerAndroid,
   InteractionManager,
-} = ReactNative;
+  ViewPropTypes
+} from 'react-native';
 const TimerMixin = require('react-timer-mixin');
 
 const SceneComponent = require('./SceneComponent');
